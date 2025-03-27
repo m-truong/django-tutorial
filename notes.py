@@ -19,3 +19,5 @@
 # urls.py: contains a table of contents for the Django project, which you also modify in the course of development.
 
 # wsgi.py: an entry point for WSGI-compatible web servers to serve your project. You typically leave this file as-is as it provides the hooks for production web servers.
+
+# Note: production-level data store such as PostgreSQL, MySQL, and SQL Server.
