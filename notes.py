@@ -7,3 +7,15 @@
 # An app, for its part, is just a Python package that follows certain conventions that Django expects.
 
 # You’ll need to avoid naming projects after built-in Python or Django components. In particular, this means you should avoid using names like django (which will conflict with Django itself) or test (which conflicts with a built-in Python package).
+
+# A subfolder named web_project, which contains the following files:
+
+# __init__.py: an empty file that tells Python that this folder is a Python package.
+
+# asgi.py: an entry point for ASGI-compatible web servers to serve your project. You typically leave this file as-is as it provides the hooks for production web servers.
+
+# settings.py: contains settings for Django project, which you modify in the course of developing a web app.
+
+# urls.py: contains a table of contents for the Django project, which you also modify in the course of development.
+
+# wsgi.py: an entry point for WSGI-compatible web servers to serve your project. You typically leave this file as-is as it provides the hooks for production web servers.
